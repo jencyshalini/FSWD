@@ -1,4 +1,4 @@
-````md
+
 # ✍️ Handwritten Signature Forgery Detection using CNN with Explainable AI
 
 🚀 A Deep Learning-based Signature Verification System developed to classify **Genuine** and **Forged** handwritten signatures using **CNN**, **InceptionV3**, and **Explainable AI (Grad-CAM)**.
