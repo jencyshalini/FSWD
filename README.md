@@ -1,4 +1,5 @@
-# ✍️ AI-Based Signature Forgery Detection using CNN
+````md
+# ✍️ Handwritten Signature Forgery Detection using CNN with Explainable AI
 
 🚀 A Deep Learning-based Signature Verification System developed to classify **Genuine** and **Forged** handwritten signatures using **CNN**, **InceptionV3**, and **Explainable AI (Grad-CAM)**.
 
@@ -52,39 +53,59 @@ signature-forgery-detection/
 ├── 📁 Base_Paper
 ├── 📁 Images
 ├── 📄 README.md
+````
 
-🔄 Project Workflow
-1️⃣ Dataset Collection
-Used the GPDS Signature Dataset containing genuine and forged signatures.
-2️⃣ Image Preprocessing
-Image resizing
-Normalization
-Data preparation for training
-3️⃣ Model Training
-Implemented CNN using InceptionV3 architecture.
-Trained the model using TensorFlow and Keras.
-4️⃣ Prediction & Classification
-Classified signatures as Genuine or Forged.
-5️⃣ Explainable AI Visualization
-Used Grad-CAM to visualize important prediction regions.
-🧠 Model Architecture
+---
+
+## 🔄 Project Workflow
+
+### 1️⃣ Dataset Collection
+
+* Used the GPDS Signature Dataset containing genuine and forged signatures.
+
+### 2️⃣ Image Preprocessing
+
+* Image resizing
+* Normalization
+* Data preparation for training
+
+### 3️⃣ Model Training
+
+* Implemented CNN using InceptionV3 architecture.
+* Trained the model using TensorFlow and Keras.
+
+### 4️⃣ Prediction & Classification
+
+* Classified signatures as Genuine or Forged.
+
+### 5️⃣ Explainable AI Visualization
+
+* Used Grad-CAM to visualize important prediction regions.
+
+---
+
+## 🧠 Model Architecture
 
 This project uses:
 
-🔥 InceptionV3 CNN Architecture
+🔥 **InceptionV3 CNN Architecture**
 for feature extraction and signature classification.
 
-🧠 Grad-CAM Explainable AI
+🧠 **Grad-CAM Explainable AI**
 to improve prediction interpretability and transparency.
 
-📊 Results
+---
+
+## 📊 Results
 
 ✅ Successfully classified genuine and forged signatures
 ✅ Improved feature extraction using transfer learning
 ✅ Generated visual explanations using Grad-CAM
 ✅ Achieved effective prediction performance on test samples
 
-📁 Included Files
+---
+
+## 📁 Included Files
 
 This repository currently contains:
 
@@ -94,27 +115,42 @@ This repository currently contains:
 ✅ Final Presentation PPT
 ✅ Research Base Paper
 
-⚠️ Note
+---
+
+## ⚠️ Note
 
 🚫 The trained model file is not included due to GitHub file size limitations.
 
-🚀 Future Enhancements
-Real-time signature verification system
-Web-based deployment
-Cloud database integration
-Multi-user authentication support
-Improved accuracy with larger datasets
-🎓 Academic Purpose
+---
+
+## 🚀 Future Enhancements
+
+* Real-time signature verification system
+* Web-based deployment
+* Cloud database integration
+* Multi-user authentication support
+* Improved accuracy with larger datasets
+
+---
+
+## 🎓 Academic Purpose
 
 This project was developed as part of an academic learning and research initiative in the fields of:
 
-Artificial Intelligence
-Deep Learning
-Computer Vision
-Image Processing
-👩‍💻 Author
-Jency Shagaya Salini V
+* Artificial Intelligence
+* Deep Learning
+* Computer Vision
+* Image Processing
+
+---
+
+# 👩‍💻 Author
+
+## Jency Shagaya Salini V
 
 🎓 B.Tech Information Technology Student
 💻 Backend Development & AI/ML Enthusiast
 🚀 Passionate about building practical software solutions
+
+```
+```
